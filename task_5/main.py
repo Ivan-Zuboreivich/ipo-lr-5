@@ -1,4 +1,6 @@
-n=int(input("Введите число"))
-for i in range(1,n):
-    if (i % 2 == 1):
-        print(i)
+summ = 0
+list = input("Введите строку: ")
+for i in list:
+     if "и" == i:
+         summ += 1
+print(summ)

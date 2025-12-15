@@ -1,5 +1,3 @@
-number=int(input("Введите число"))
-factorial=0
-i=0
-while(i<0):
-    pass
+with open("text.txt", "r", encoding="utf-8") as file:
+    data = file.read()
+print("Слов в тексте: ", data.count(" "))

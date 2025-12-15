@@ -1,7 +1,8 @@
-numbers = []
-numbers_sq= []
-for i in range (1,25):
-    numbers.append(i)
-    print(numbers[i-1])
-    numbers_sq.append(i*i)
-    print(numbers_sq[i-1])
+anagramm = True
+s1 = input("Введите строку 1")
+s2 = input("Введите строку 2")
+for i in s1.lower():
+    if i not in s2.lower():
+        anagramm = False
+        break
+print("строки являются анаграмамми", anagramm)

@@ -1,4 +1,2 @@
-natural = []
-for i in range(1,10):
-    natural.append(i * 3)
-    print(natural[i-1])
+string = "Создайте строку из 10 слов и измените все буквы на заглавные"
+string.upper()
