@@ -1,3 +1,3 @@
 with open("text.txt", "r", encoding="utf-8") as file:
-    data = file.read()
-print("Слов в тексте: ", data.count(" "))
+    data = file.read()#Записыаем данные из файла в переменную 
+print("Слов в тексте: ", data.count(" "))считаем слова путем нахождения количества пробелов
